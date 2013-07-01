@@ -1,0 +1,127 @@
+.containerForBlogs{
+    width: 100%;
+    height: 100%;
+}
+.containerPosts,
+.containerPostsOnly{
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    list-style: none;
+}
+.commentsLi{
+    border: 1px solid #808080;
+    margin-bottom: 20px;
+}
+.containerPosts{
+    width : 700px;
+}
+.containerPostsOnly{
+    width : 100%;
+}
+
+.containerPosts .itemPost{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 20px;
+}
+.containerPostsOnly .itemPost{
+    width: 100%;
+    height: auto;
+}
+.containerPostsOnly .itemPost .text{
+    height: auto !important;
+}
+.itemPost .title{
+    font-size: 120%;
+}
+.itemPost .text{
+    height: 100px;
+    padding: 5px 5px 5px 10px;
+    font-size: 120%;
+}
+
+.itemPost .title,
+.itemPost .info,
+.itemPost .voteInfo{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.itemPost .title,
+.itemPost .info,
+.itemPost .text,
+.itemPost .voteInfo{width : 100%;}
+
+.wrapComments{
+    margin-left: 10px;
+}
+.textareaStyle{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin:0;
+}
+.sendComment{
+    padding: 20px;
+    text-align: right;
+}
+.sendComment .sendButton{
+    margin-top: 10px;
+}
+.pointer{cursor: pointer;}
+/*COMMON STYLE*/
+.a_under{
+    border-bottom: 1px solid #808080;
+    text-decoration: none !important;
+}
+.a_under:hover{
+    color : black !important;
+    border-bottom: 1px solid black;
+}
+.c_grey{
+    color : #808080;
+}
+
+.d_i{
+    display: inline-block;
+    vertical-align: top;
+}
+.border_box{
+    -webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+    -moz-box-sizing: border-box; /* Firefox 1+ */
+    box-sizing: border-box; /* Chrome, IE 8+, Opera, Safari 5.1 */
+}
+.box_shadow{
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+.box_round {
+    -webkit-border-radius: 12px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+    border-radius: 12px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+    /* useful if you don't want a bg color from leaking outside the border: */
+    -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.box_transition {
+    -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
